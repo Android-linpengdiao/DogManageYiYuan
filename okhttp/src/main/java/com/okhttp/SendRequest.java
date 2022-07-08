@@ -90,6 +90,19 @@ public class SendRequest {
     }
 
     /**
+     * 医院端-保存疫苗信息
+     *
+     * @param map
+     * @param call
+     */
+    public static void updateImmuneLicenceLog(Map<String, String> map, Callback call) {
+        Map<String, String> headers = new HashMap<>();
+        headers.put("Authorization", BaseApplication.getInstance().getUserInfo().getAuthorization());
+        OkHttpUtils.post().headers(headers).params(map).url(APIUrls.updateImmuneLicenceLog).build().execute(call);
+
+    }
+
+    /**
      * @param noseprint     鼻纹信息（与犬证2选1）
      * @param dogLicenceNum 鼻纹信息（与犬证2选1）
      * @param call

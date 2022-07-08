@@ -181,6 +181,7 @@
                     app:item_title_size="@dimen/sp_14" />
 
                 <com.dog.manage.yiyuan.app.view.ViewItemLayout
+                    android:id="@+id/immuneNameView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
@@ -197,6 +198,7 @@
                     app:item_title_size="@dimen/sp_14" />
 
                 <com.dog.manage.yiyuan.app.view.ViewItemLayout
+                    android:id="@+id/immuneBatchView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
@@ -213,6 +215,7 @@
                     app:item_title_size="@dimen/sp_14" />
 
                 <com.dog.manage.yiyuan.app.view.ViewItemLayout
+                    android:id="@+id/immuneFactoryView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
@@ -229,6 +232,7 @@
                     app:item_title_size="@dimen/sp_14" />
 
                 <com.dog.manage.yiyuan.app.view.ViewItemLayout
+                    android:id="@+id/immuneNumView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
